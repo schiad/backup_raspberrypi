@@ -3,19 +3,19 @@ A simple code to backup and compress SD card of you Raspberry pi
 
 ## Download and execute
 
-git clone https://github.com/schiad/backup_raspberrypi
-cd backup_raspberrypi
-chmod u+x backup.sh
-./backup.sh (Please read Configuration section before use)
+git clone https://github.com/schiad/backup_raspberrypi  
+cd backup_raspberrypi  
+chmod u+x backup.sh  
+./backup.sh (Please read Configuration section before use)  
 
 ## Make an regular schedule backups with crontab
 
-You can use crontab to schedule your backups.
-Example to backup daily at 2am edit your crontab like this:
+You can use crontab to schedule your backups.  
+Example to backup daily at 2am edit your crontab like this:  
 
-0 2 * * * bash /home/pi/sh/backup.sh
+0 2 * * * bash /home/pi/sh/backup.sh  
 
-See man crontab to change parameters
+See man crontab to change parameters  
 
 ## Configuration
 
